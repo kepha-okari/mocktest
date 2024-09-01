@@ -6,27 +6,27 @@
 
 ## Pseudocode
 
-### 1. Parse the Input
+### Step 1. Parse the Input
 - Split the input string into lines.
 - Group every three lines to represent a job (start time, end time, profit).
 - Store jobs as a list of tuples.
 
-### 2. Sort the Jobs
+### Step 2. Sort the Jobs
 - Sort jobs by profit in descending order.
 - If profits are the same, sort by end time in ascending order.
 
-### 3. Select Jobs
+### Step 3. Select Jobs
 - Initialize `selected_jobs` and `total_profit`.
 - For each job in the sorted list:
   - If the job's start time is after or at the end time of the last selected job:
     - Select the job.
     - Update `last_end_time` and add the job's profit to `total_profit`.
 
-### 4. Calculate Remaining Jobs and Profit
+### Step 4. Calculate Remaining Jobs and Profit
 - Determine the jobs that were not selected.
 - Calculate the total profit of these remaining jobs.
 
-### 5. Main Function - Job Scheduling
+### Step 5. Main Function - Job Scheduling
 - Parse the input to get the list of jobs.
 - Use the greedy algorithm to select the best jobs.
 - Calculate and return the number of remaining jobs and their total profit.
