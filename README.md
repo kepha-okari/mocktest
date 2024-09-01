@@ -9,6 +9,8 @@ Each problem has its own script, tests, and pseudocode explanation.
 
 ## Directory Structure
 **The files are organized as follows:**
+
+
 .
 ├── ...
 ├── problem1                    
