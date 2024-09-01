@@ -8,7 +8,7 @@ This repository contains Python solutions for two distinct problems:
 Each problem has its own script, tests, and pseudocode explanation.
 
 ## Directory Structure
-The files are organized as follows:
+**The files are organized as follows:**
 .
 ├── ...
 ├── problem1                    
