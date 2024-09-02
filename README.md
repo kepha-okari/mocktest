@@ -36,16 +36,16 @@ Each problem has its own script, tests, and pseudocode explanation.
   
 
 #### to run solutions and test for problem1
-bash 
+```bash 
 python problem1/job_scheduler.py
 #### to run tests for problem1
-bash 
+```bash  
 python problem1/test_job_scheduler.py
 
 #### to run solution for problem2
-bash 
+```bash  
 python problem2/select_goodies.py
 #### to run tests for problem2
-bash 
+```bash  
 python problem2/test_select_goodies.py
 
